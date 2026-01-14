@@ -30,7 +30,7 @@ function ProtectedRoute({ children }: { children: React.ReactNode }) {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Chat-Me/">
       <AuthProvider>
         <ConversationsProvider>
           <ChatProvider>
